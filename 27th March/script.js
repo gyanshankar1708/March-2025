@@ -4,7 +4,6 @@ const html = (val) => {
         <div class="text">
             $ : ${val}
         </div>
-        <div class="dots">...</div>
     </div>`;
   return ans;
 };
@@ -15,7 +14,6 @@ let arr = [
   "Sending all password files and personal information to server",
   "Cleaning up",
 ];
-
 
 async function display(val){
     let randNum = Math.random()*7;
